@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.headerBg{
+
+}
+.header{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerBg .logo a img{
+    width: 181px;
+    height: 70px;
+}
+.headerBg .logo{
+    float: left;
+    margin: 23px 0;
+}
+.headerBg nav{
+    float: right;
+}
+.headerBg li{
+    float: left;
+    margin: 45px 0;
+    line-height: 20px;
+}
+.headerBg li a{
+    font-size: 16px;
+    margin: 0 10px;
+    color: #333333;
+    
+}
+.serviceBg{
+}
+.service{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1{
+    float: left;
+    width: 20%;
+    margin: 20px 0 50px 0;
+    
+}
+.box1 p{
+    text-align: center;
+    padding: 0 15px;
+}
+.box1 .pic{
+    margin: 0 20px;
+}
+.companyBg{
+    background-color: #eeeeee;  
+}
+
+.company{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.company .companyPic{
+    width: 50%;
+    float: left;
+    margin: 85px 0;
+}
+.company .companyText{
+    width: 50%;
+    float: right;
+   margin: 160px 0;
+}
+.company .companyText .gsjj{
+    font-size: 24px;
+    color: #4c4c4c;
+}
+.company .companyText .about{
+    font-size: 14px;
+    color: #b2b2b2;
+}
+.company .companyText .gs{
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    line-height: 20px;
+}
+
+.bottomBg{
+
+    background-color: #333333;
+}
+.bottom{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.bottom img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.servicebannerBg{
+    background-image: url(./img/service-bg.jpg);
+    height: 350px;
+}
+.servicebanner, .servicemiddle{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicePic{
+    overflow: hidden;
+    margin-top: 50px;
+    float: left;
+    width: 33%;
+    height: 609px;
+    position: relative;
+}
+.servicePic img{
+    background-size: 609px;
+}
+.servicePic .serviceText{
+    position: absolute;
+    left: 30px;
+    top: 488px;
+    color: #fff;
+}
+.icontext{
+    float: left;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.newsbannerBg{
+    background-image: url(./img/news-bg.jpg);
+    height: 350px;
+}
+.newsbanner, .newsmiddle{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutbannerBg{
+    background-image: url(./img/about-bg.jpg);
+    height: 350px;
+}
+.aboutbanner, .aboutmiddle, .hr, .mission{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mission{
+    text-align: left;
+    margin: 20px 0 0 0;
+}
