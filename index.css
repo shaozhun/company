@@ -32,15 +32,27 @@ ul, li, a{
 }
 .headerBg li{
     float: left;
-    margin: 45px 0;
+    margin: 35px 0;
     line-height: 20px;
+    padding: 10px 0;
 }
 .headerBg li a{
     font-size: 16px;
     margin: 0 10px;
-    color: #333333;
-    
+    color: #333333; 
 }
+.headerBg li:hover{
+
+    background-color: #512da7;
+    border-radius: 15px;
+ 
+}
+.headerBg li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
 .serviceBg{
 }
 .service{
@@ -161,3 +173,85 @@ ul, li, a{
     text-align: left;
     margin: 20px 0 0 0;
 }
+.news a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.news a{
+    color: #000;
+}
+.news{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zzz{
+    padding-top: 50px;
+}
+.news1{
+ float: left;
+ width: 46%;
+
+}
+.news2{
+    float: right;
+    width: 46%;
+  
+}
+.news3{
+    float: left;
+    width: 46%;
+    border-top: 1px dashed grey;
+    border-bottom: 1px dashed grey;
+    margin: 50px 0;
+    padding: 40px 0;
+
+   }
+.news4{
+       float: right;
+       width: 46%;
+       border-top: 1px dashed grey;
+       border-bottom: 1px dashed grey;
+       margin: 50px 0;
+       padding: 40px 0;
+   }
+/* 图片hover放大拉近效果 */
+.servicePic img {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .servicePic img:hover, .servicePic img:focus, .servicePic img:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .servicePic img {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .servicePic img:hover, .servicePic img:focus, .servicePic img:active {
+    -webkit-animation-name: days-sink, days;
+    animation-name: days-sink, days;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
